@@ -9,9 +9,10 @@ A 3D Printed DIY Simulator Stick Shift Using Potentiometers And Arduino Nano Or 
 ![image](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift/blob/main/Resources/Banner.jpg)
 
 ## Topics
- - [Tested_Boards:](#Tested_Boards:)
- - [Hardware:](#Hardware:)
- - [Credits](#Credits)
+ - [Tutorial](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift#tutorial)
+ - [Tested_Boards](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift#tested_boards)
+ - [Hardware](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift#hardware)
+ - [Credits](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift#credits)
 
 ## Tutorial:
 Download the hardware and firmware folders from [releases](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift/releases) start printing the parts from the hardware folder according to 3d printing list from [Hardware](#Hardware:) (some of the parts need support).
