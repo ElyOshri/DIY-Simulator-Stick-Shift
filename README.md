@@ -10,14 +10,28 @@ A 3D Printed DIY Simulator Stick Shift Using Potentiometers And Arduino Nano Or 
 
 ## Topics
  - [Tutorial](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift#tutorial)
- - [Tested_Boards](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift#tested_boards)
+ - [Tested Boards](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift#tested_boards)
  - [Hardware](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift#hardware)
  - [Credits](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift#credits)
 
 ## Tutorial:
 Download the hardware and firmware folders from [releases](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift/releases) start printing the parts from the hardware folder according to 3d printing list from [Hardware](#Hardware:) (some of the parts need support).
 
-After you finish printing the Base, Hinge and the Main Stick you can start assmbeling the parts and wire the potantiometers to your board according to this wiring diagram
+After you finish printing the Base, Hinge and the Main Stick you can start assembling the parts ([use this 3d model for reference](https://a360.co/3D5aO7Y)) ,
+then insert the potentiometers to they're spots and wire them to your board according to this wiring diagram 
+([Arduino Nano](https://user-images.githubusercontent.com/79017393/132395478-2bf8ad6f-0b95-429a-84c2-f516c4f6ddcb.png), 
+[ESP32](https://user-images.githubusercontent.com/79017393/132395408-584d270a-1471-4dd1-976c-bccc9487b785.png) (for ESP32 use 3V3 instead of 5V)) You can look at the firmware for the exact pins that i used. 
+
+After you wired everything up you can start uploading the firmware by choosing the correct file in the Firmware folder, changing the pins in the code, choosing your board and downloading all of the drivers and libraries necessary you can start uploading the firmware.(some boards needs you to press a button on them while uploading firmware)
+* Note that for each board its going to be different and you may need to install libraries and drivers for your board (the links for the libraries and drivers are at the top of the file)
+
+Then check the serial monitor move the gear lever into each position and start assigning the rows values, then upload the firmware again and you should be finished.
+
+
+**Here Are Some Good Tutorial To Help You With All Of This:**
+- [Arduino Nano Original](https://www.arduino.cc/en/Guide/ArduinoNano)
+- [Arduino Nano Clone](https://electropeak.com/learn/how-to-install-ch340-driver/)
+- [ESP32](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 
 ## Tested_Boards:
 ```
@@ -43,15 +57,15 @@ After you finish printing the Base, Hinge and the Main Stick you can start assmb
 * Base Top
 * Base Bottom
 * H Frame
-* Right Frame / + Arduino Nano Case (depened on your board)
-* Left Frame / + ESP32 Case (depened on your board)
+* Right Frame / + Arduino Nano Case (depends on your board)
+* Left Frame / + ESP32 Case (depends on your board)
 * Base Attachment (optional)
-* Case Cover ESP32/Arduino Nano (optional and depened on your board)
+* Case Cover ESP32/Arduino Nano (optional and depends on your board)
 
 **Tools:**
 * Soldering Iron / Crimping Set
 * 3D Printer / A way to get the parts
-* A computer with a usb port and the Arduino IDE to program the board
+* A computer with a USB port and the Arduino IDE to program the board
 
 
 ## Credits
