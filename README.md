@@ -1,7 +1,6 @@
 # DIY-Simulator-Stick-Shift
 
-[![GitHub release](https://img.shields.io/github/v/release/ElyOshri/DIY-Simulator-Stick-Shift?include_prereleases&label=Release)](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift/releases)
-[![Downloads](https://img.shields.io/github/downloads/ElyOshri/DIY-Simulator-Stick-Shift/total?color=g&label=Downloads)](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift/releases)
+[![GitHub release](https://img.shields.io/github/v/release/ElyOshri/DIY-Simulator-Stick-Shift?color=g&label=Release)](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift/releases)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/ElyOshri1)
 
 A 3D Printed DIY Simulator Stick Shift Using Potentiometers And Arduino Nano Or ESP32
