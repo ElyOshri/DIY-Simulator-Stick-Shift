@@ -24,6 +24,7 @@ then insert the potentiometers to they're spots and wire them to your board acco
 
 After you wired everything up you can start uploading the firmware by choosing the correct file in the Firmware folder, changing the pins in the code, choosing your board and downloading all of the drivers and libraries necessary you can start uploading the firmware.(some boards needs you to press a button on them while uploading firmware)
 * Note that for each board its going to be different and you may need to install libraries and drivers for your board (the links for the libraries and drivers are at the top of the file)
+* In the serial monitor your need to set the baud rate to `115200` to see the correct values
 
 Then check the serial monitor move the gear lever into each position and start assigning the rows values, then upload the firmware again and you should be finished.
 
