@@ -55,10 +55,11 @@ void loop() {
   if (FLIP_X) {
     potValueX = MAX_POT_VALUE - potValueX;
   }
+  Serial.print("Y: ");
   Serial.print(potValueY);
-  Serial.print(" ");
+  Serial.print(" X: ");
   Serial.print(potValueX);
-  Serial.print(" ");
+  Serial.print(" Button: ");
   Serial.println(currentButton);
 
   if (Joystick.isConnected()) {
