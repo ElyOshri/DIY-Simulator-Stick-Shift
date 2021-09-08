@@ -29,9 +29,10 @@ Then check the serial monitor move the gear lever into each position and start a
 
 
 **Here Are Some Good Tutorial To Help You With All Of This:**
-- [Arduino Nano Original](https://www.arduino.cc/en/Guide/ArduinoNano)
-- [Arduino Nano Clone](https://electropeak.com/learn/how-to-install-ch340-driver/)
-- [ESP32](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
+- [Arduino Nano Original Guide](https://www.arduino.cc/en/Guide/ArduinoNano)
+- [Arduino Nano Clone Driver](https://electropeak.com/learn/how-to-install-ch340-driver/)
+- [ESP32 Driver And Guide](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
+- [Installing a Library](https://www.arduino.cc/en/guide/libraries)
 
 ## Tested_Boards:
 ```
@@ -47,6 +48,7 @@ Then check the serial monitor move the gear lever into each position and start a
 * 26 gauge or bigger electrical wire (2 meters should be enough)
 * USB cable (depending on your board)
 * Solder or a crimping set (JST connectors 5 pin JST-XH 2.54mm should work) 
+* 3d printer filament (PLA or anyother ridgid filament)
 
 **3D Printed Parts:**
 * Bottom Hinge
@@ -65,10 +67,11 @@ Then check the serial monitor move the gear lever into each position and start a
 **Tools:**
 * Soldering Iron / Crimping Set
 * 3D Printer / A way to get the parts
-* A computer with a USB port and the Arduino IDE to program the board
+* A computer with a USB port and the Arduino IDE app to program the board
 
 
 ## Credits
 * Arduino Joystick Library (By: MHeironimus): https://github.com/MHeironimus/ArduinoJoystickLibrary
 * ESP32 Gamepad Library (By: lemmingDev): https://github.com/lemmingDev/ESP32-BLE-Gamepad
 * ESP32 Case (By: Antonio Garcia): https://www.thingiverse.com/thing:2071188
+* Arduino Nano Case (By: Jonathan Prive): https://www.thingiverse.com/thing:4850125
