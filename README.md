@@ -14,7 +14,7 @@ A 3D Printed DIY Simulator Stick Shift Using Potentiometers And Arduino Nano Or 
  - [Credits](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift#credits)
 
 ## Tutorial:
-Download the hardware and firmware folders from [releases](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift/releases) start printing the parts from the hardware folder according to 3d printing list from [Hardware](#Hardware:) (some of the parts need support).
+Download the hardware and firmware folders from [releases](https://github.com/ElyOshri/DIY-Simulator-Stick-Shift/releases). Start printing the parts from the hardware folder according to 3d printing list from [Hardware](#Hardware:) (some of the parts need support).
 
 After you finish printing the Base, Hinge and the Main Stick you can start assembling the parts ([use this 3d model for reference](https://a360.co/3D5aO7Y)) ,
 then insert the potentiometers to they're spots and wire them to your board according to this wiring diagram 
@@ -48,7 +48,7 @@ Then check the serial monitor move the gear lever into each position and start a
 * 26 gauge or bigger electrical wire (2 meters should be enough)
 * USB cable (depending on your board)
 * Solder or a crimping set (JST connectors 5 pin JST-XH 2.54mm should work) 
-* 3d printer filament (PLA or anyother ridgid filament)
+* 3d printer filament (PLA or another ridged filament)
 
 **3D Printed Parts:**
 * Bottom Hinge
